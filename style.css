@@ -1,0 +1,41 @@
+#Face {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+}
+
+.Eye {
+    background-color: white;
+    width: 140px;
+    height: 140px;
+}
+
+.Pupil {
+    background-color: black;
+    width: 55px;
+    height: 55px;
+}
+
+#Mouth {
+    background-color: black;
+    width: 320px;
+    height: 240px;
+}
+
+.Teeth {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+#Tongue {
+    background-color: red;
+    width: 130px;
+    height: 100px;
+}
+
+#TongueLine {
+    background-color: black;
+    width: 10px;
+    height: 80px;
+}
