@@ -6,15 +6,15 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-muted-primary">
     <div class="container" class="sm:container">
       <div class="text-center">
     <h1 class="bg-danger text-center d-inline-flex p-4">3 Things That I lost</h1>
     </div>
 
     <div class="accordion">
-  <details class="accordion-item" name="accordionExample" open>
-    <summary class="accordion-header">
+  <details class="accordion-item bg-subtle-primary" name="accordionExample" open>
+    <summary class="accordion-header bg-primary fw-bolder">
       First Item
       <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
     </summary>
@@ -23,8 +23,8 @@
       <p class="text-center">I lost my Pokemon cards</p>
     </div>
   </details>
-  <details class="accordion-item" name="accordionExample">
-    <summary class="accordion-header">
+  <details class="accordion-item bg-subtle-primary" name="accordionExample">
+    <summary class="accordion-header bg-primary fw-bolder">
       Second Item
       <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
     </summary>
@@ -33,8 +33,8 @@
       <p class="text-center">I lost my Beyblade</p>
     </div>
   </details>
-  <details class="accordion-item" name="accordionExample">
-    <summary class="accordion-header">
+  <details class="accordion-item bg-subtle-primary" name="accordionExample">
+    <summary class="accordion-header bg-primary fw-bolder">
       Third Item
       <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
     </summary>
@@ -45,6 +45,13 @@
   </details>
 </div>
 
+<a type="button" class="theme-primary btn-solid btn-styled btn-lg" href="https://www.youtube.com">
+  Click me
+</a>
+
+<a class="theme-primary btn-solid btn-styled btn-lg disabled" role="button" aria-disabled="true">
+  Click me
+</a>
 
 
 
